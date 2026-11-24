@@ -1,7 +1,7 @@
 {
-    "version":  "2.0",
+    "version":  "2.1",
     "url":  "https://raw.githubusercontent.com/zielujestem/uzp-aktualizacje/main/UZP-Setup.exe",
-    "sha256":  "cc39f9f3990401e2ff2b1f2f146e2cead1a7a27ea7edd93a053e10609adb8681",
-    "notes":  "Pierwsze wydanie",
-    "date":  "2026-11-22"
+    "sha256":  "9c3094ef22d6023db1505749eec4eedcb4574cdd4623aeb72a2dba5b5634c56d",
+    "notes":  "Nowa Tarcza: blokuje karty-reklamy, filtry proceduralne, nowe skryptlety, odtwarzacze wideo bez reklam",
+    "date":  "2026-11-24"
 }
