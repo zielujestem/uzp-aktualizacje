@@ -1,7 +1,7 @@
 {
-    "version":  "2.1",
+    "version":  "2.2",
     "url":  "https://raw.githubusercontent.com/zielujestem/uzp-aktualizacje/main/UZP-Setup.exe",
-    "sha256":  "9c3094ef22d6023db1505749eec4eedcb4574cdd4623aeb72a2dba5b5634c56d",
-    "notes":  "Nowa Tarcza: blokuje karty-reklamy, filtry proceduralne, nowe skryptlety, odtwarzacze wideo bez reklam",
+    "sha256":  "9a1077c597a0e0bf818ea58309ad55eeb171ddb1d1d8606ea859bcf17a33b3b6",
+    "notes":  "Nowe logo UZP",
     "date":  "2026-11-24"
 }
