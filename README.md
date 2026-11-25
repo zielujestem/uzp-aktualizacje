@@ -1,4 +1,4 @@
 ﻿# UZP - UltraZajebistaPrzeglądarka
 
-Pobierz instalator: [UZP-Setup.exe](UZP-Setup.exe) (wersja 2.4)
+Pobierz instalator: [UZP-Setup.exe](UZP-Setup.exe) (wersja 2.5)
 
