@@ -1,7 +1,7 @@
 {
-    "version":  "2.5",
+    "version":  "2.6",
     "url":  "https://raw.githubusercontent.com/zielujestem/uzp-aktualizacje/main/UZP-Setup.exe",
-    "sha256":  "26bcccc3ca568e4be72a6f9492835954ed239630416a4bc095af661c42d75455",
-    "notes":  "Blyskawiczne pomijanie odliczania, nie znikaja juz okna logowania, strony z banerem cookies nie blokuja klikniec",
+    "sha256":  "6f5739e1f21fba1a096d487c53c9e3f4c598457a9e404e86f2b62c28d362c463",
+    "notes":  "Naprawiony blad Chromium (E_ABORT) po aktualizacji, UZP samo podnosi karty po awarii silnika",
     "date":  "2026-11-25"
 }
