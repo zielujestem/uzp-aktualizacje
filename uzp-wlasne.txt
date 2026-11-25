@@ -1,0 +1,36 @@
+! Title: UZP – własne reguły Tarczy
+! Reguły dopisane przy zgłoszeniach użytkownika (strony, na których listy publiczne nie łapały reklam).
+!
+! cda-hd.cc: fałszywa CAPTCHA „Kliknij przycisk jeśli nie jesteś robotem” (reklama interstitial, 22.11.2026)
+||cloudpiko.com^
+! cda-hd.cc: skrypty popupow i udawany odtwarzacz (link do reklamy zamiast filmu); od razu wybierz prawdziwy odtwarzacz (24.11.2026)
+||cba.cda-hd.co^
+cda-hd.cc,cda-hd.co##.fake_player > a
+cda-hd.cc,cda-hd.co##body:has(#div1 .fake_player) a[href="#div1"]
+cda-hd.cc,cda-hd.co##+js(trusted-click-element, 'body:has(#div1 .fake_player) a[href="#div2"]', , 600)
+cda-hd.cc>>,cda-hd.co>>,bajeczki24.pl>>,~addtoany.com,~cloudflare.com,~facebook.com,~fastly.net,~google.com,~twitter.com##+js(nowoif)
+cda-hd.cc>>,cda-hd.co>>,bajeczki24.pl>>,~addtoany.com,~cloudflare.com,~facebook.com,~fastly.net,~google.com,~twitter.com##+js(set, console.clear, undefined)
+cda-hd.cc>>,cda-hd.co>>,bajeczki24.pl>>,~addtoany.com,~cloudflare.com,~facebook.com,~fastly.net,~google.com,~twitter.com##+js(acs, globalThis, break;case)
+cda-hd.cc>>,cda-hd.co>>,bajeczki24.pl>>,~addtoany.com,~cloudflare.com,~facebook.com,~fastly.net,~google.com,~twitter.com##+js(acs, WebAssembly, atob)
+cda-hd.cc>>,cda-hd.co>>,bajeczki24.pl>>,~addtoany.com,~cloudflare.com,~facebook.com,~fastly.net,~google.com,~twitter.com##+js(trusted-json-edit, .check=false)
+/\/[0-9a-z]{2}\/[0-9a-f]{32}\.js/$script,xhr,3p,match-case,method=get,to=com,top=cda-hd.cc|cda-hd.co|bajeczki24.pl
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,top=cda-hd.cc|cda-hd.co|bajeczki24.pl
+! livetv-NNN.me + odtwarzacze emb.tvpNN.xyz / emb.aplNNN.me (numery w domenach sie zmieniaja) i streamiz.lol (24.11.2026)
+/^https?:\/\/ads?\.(livetv-?|apl)\d+\.[a-z]+\//$subdocument,script,image
+/^https?:\/\/[a-z]+\.apl\d+\.[a-z]+\/(js\/pop\.js|export\/ltv_popup\.php)/$script
+||live-tv.top^$popup,doc
+/^emb\.(tvp|apl)\d+\.[a-z]+$/###ads
+/^emb\.(tvp|apl)\d+\.[a-z]+$/###adbtm
+/^emb\.(tvp|apl)\d+\.[a-z]+$/##+js(set, ct_SuUrl, undefined)
+/^emb\.(tvp|apl)\d+\.[a-z]+$/##+js(nowoif)
+/^livetv-?\d+\.me$/##iframe[src*="getbanner"]
+streamiz.lol##.banner_wrapper
+! matchli.st / playfa.st: AdCash w odtwarzaczu + plachta "pierwsze klikniecie = reklama" (24.11.2026)
+matchli.st###adClickLayer
+matchli.st##div[znid]
+playfa.st###first-click-ads-layer
+playfa.st,matchli.st##+js(nowoif)
+/^https:\/\/[a-z]{10,20}\.(space|website)\/[0-9a-z]/$script,xhr,image,3p,from=matchli.st|playfa.st
+||usrpubtrck.com^
+! onet.pl: zolty pasek AUTOPROMOCJA (reklama wlasnej subskrypcji) u gory strony (24.11.2026)
+onet.pl###mpPaywallTopBar

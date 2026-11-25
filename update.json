@@ -1,7 +1,7 @@
 {
-    "version":  "2.2",
+    "version":  "2.3",
     "url":  "https://raw.githubusercontent.com/zielujestem/uzp-aktualizacje/main/UZP-Setup.exe",
-    "sha256":  "9a1077c597a0e0bf818ea58309ad55eeb171ddb1d1d8606ea859bcf17a33b3b6",
-    "notes":  "Nowe logo UZP",
-    "date":  "2026-11-24"
+    "sha256":  "de16de59be6508259d3ea14789183b5ff396df7c1446187c23d8f7747a17314f",
+    "notes":  "Synchronizacja przez Google, menedzer hasel, inteligentne podpowiedzi, motywy, gesty mysza, paleta polecen, notatki, nagrywarka, Laboratorium CSS, narzedzia hakera i mocniejsza Tarcza",
+    "date":  "2026-11-25"
 }
