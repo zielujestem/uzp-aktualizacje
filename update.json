@@ -1,7 +1,7 @@
 {
-    "version":  "2.3",
+    "version":  "2.4",
     "url":  "https://raw.githubusercontent.com/zielujestem/uzp-aktualizacje/main/UZP-Setup.exe",
-    "sha256":  "de16de59be6508259d3ea14789183b5ff396df7c1446187c23d8f7747a17314f",
-    "notes":  "Synchronizacja przez Google, menedzer hasel, inteligentne podpowiedzi, motywy, gesty mysza, paleta polecen, notatki, nagrywarka, Laboratorium CSS, narzedzia hakera i mocniejsza Tarcza",
+    "sha256":  "60331920035c0e82e272ec3927a4338179d1a07b6cea8fd834d5538f86c107a3",
+    "notes":  "Pomijanie odliczania na stronach pobierania, skuteczniejsze chowanie banerow cookies, lzejszy Messenger",
     "date":  "2026-11-25"
 }
