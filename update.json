@@ -1,7 +1,7 @@
 {
-    "version":  "2.6",
+    "version":  "2.7",
     "url":  "https://raw.githubusercontent.com/zielujestem/uzp-aktualizacje/main/UZP-Setup.exe",
-    "sha256":  "6f5739e1f21fba1a096d487c53c9e3f4c598457a9e404e86f2b62c28d362c463",
-    "notes":  "Naprawiony blad Chromium (E_ABORT) po aktualizacji, UZP samo podnosi karty po awarii silnika",
-    "date":  "2026-11-25"
+    "sha256":  "b3f94056f13764f99c12c94636bf8ca42362e28d718a00aaf4dd2452c5efea0e",
+    "notes":  "UZP Engine: nowoczesny CSS (is/has, siatka, calc), do 9x szybszy CSS, GitHub i Wikipedia prawie jak w Chrome, okragle obrazki, szybszy start silnika",
+    "date":  "2026-11-26"
 }
